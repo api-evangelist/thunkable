@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of /.well-known/ on Thunkable hosts
+host: https://thunkable.com
+# No /.well-known/ discovery documents are published. Every probed path
+# returned 404 (or the host did not resolve). Recorded as valid negative
+# evidence; no WellKnown/SecurityTxt pointer is wired because nothing was found.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+hosts_probed:
+- host: thunkable.com
+  result: 404 on all paths
+- host: docs.thunkable.com
+  result: 404 on all paths
+- host: api.thunkable.com
+  result: did not resolve / no connection

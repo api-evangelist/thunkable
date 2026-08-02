@@ -1,9 +1,31 @@
 aid: thunkable
 name: Thunkable
-description: Thunkable is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Thunkable is a no-code, AI-powered platform for building native iOS and
+  Android mobile applications through a visual drag-and-drop designer, a
+  block-based logic editor, and conversational AI prompts. Creators assemble
+  screens and app logic without writing code, and connect their apps to
+  external services using the built-in Web API blocks (HTTP GET/POST/PUT/DELETE
+  against any REST endpoint), realtime databases, cloud storage, maps, media,
+  push notifications, and payment providers such as Stripe. More than 5 million
+  users across 185 countries have created over 11 million apps on the platform.
+  Note that Thunkable itself does not publish a first-party developer REST API,
+  OpenAPI specification, or SDK for programmatically managing Thunkable
+  projects; its "API" surface is the in-app Web API component used to consume
+  third-party APIs from within apps built on Thunkable.
 url: https://raw.githubusercontent.com/api-evangelist/thunkable/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/63b59ece6123439ac23e226f/6893938472a1cf43c78a4f66_open%20graph%20image%20(2).png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +34,46 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- No-Code
+- App Builder
+- Mobile Apps
+- Low-Code
+- iOS
+- Android
+- Visual Development
+- AI App Builder
 apis: []
+common:
+- type: DomainSecurity
+  url: security/thunkable-domain-security.yml
+- type: Website
+  url: https://thunkable.com
+- type: Documentation
+  url: https://docs.thunkable.com/
+- type: Blog
+  url: https://thunkable.com/blog
+- type: Support
+  url: https://community.thunkable.com/
+- type: Pricing
+  url: https://thunkable.com/pricing
+- type: SignUp
+  url: https://ai.thunkable.com/signup
+- type: Login
+  url: https://ai.thunkable.com/login
+- type: TermsOfService
+  url: https://thunkable.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://thunkable.com/privacy-policy
+- type: LLMsTxt
+  url: llms/thunkable-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

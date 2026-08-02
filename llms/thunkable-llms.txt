@@ -1,0 +1,19 @@
+# Thunkable
+
+> Thunkable is a no-code, AI-powered platform for building native iOS and Android mobile apps with a visual drag-and-drop designer, a block-based logic editor, and conversational AI prompts. Apps built on Thunkable connect to external services through the in-app Web API blocks (HTTP requests against any REST endpoint), realtime databases, cloud storage, maps, media, and payment providers. Thunkable does NOT publish a first-party developer REST API, OpenAPI specification, or SDK for programmatically managing Thunkable projects — its "API" surface is the Web API component used to consume third-party APIs from inside apps.
+
+## Product
+- [Thunkable](https://thunkable.com): No-code AI mobile app builder for iOS and Android.
+- [Pricing](https://thunkable.com/pricing): Plan and pricing details.
+- [Sign up](https://ai.thunkable.com/signup): Create a Thunkable account.
+- [Log in](https://ai.thunkable.com/login): Access the Thunkable builder.
+
+## Docs
+- [Documentation](https://docs.thunkable.com/): Product documentation for building apps.
+- [Web API blocks](https://docs.thunkable.com/blocks/advanced-app-features/web-api): How apps call external REST APIs (GET/POST/PUT/DELETE, query params, headers, body, JSON parsing).
+- [Community](https://community.thunkable.com/): Support forum and help center.
+
+## Company
+- [Blog](https://thunkable.com/blog): Product news and customer stories.
+- [Terms of Use](https://thunkable.com/terms-of-use)
+- [Privacy Policy](https://thunkable.com/privacy-policy)
